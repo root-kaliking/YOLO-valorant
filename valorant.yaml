@@ -1,0 +1,9 @@
+path: ./训练集
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names:
+  0: enemy
+  1: head
