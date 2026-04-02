@@ -39,7 +39,7 @@ if __name__ == '__main__':
         amp=True,
         fraction=1.0,
         seed=42,
-        device='cuda',
+        device='cpu',  # ✅ 关键修改：GitHub Actions 无GPU，强制用CPU
         pretrained=True,
         verbose=True,
 
